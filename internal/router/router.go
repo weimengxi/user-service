@@ -2,7 +2,7 @@ package router
 
 import (
 	"github.com/gin-gonic/gin"
-	"github.com/my-org/user-service/internal/handler"
+	"user-service/internal/handler"
 )
 
 // SetupRoutes 配置路由

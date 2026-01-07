@@ -4,10 +4,11 @@ import (
 	"log"
 	"os"
 
+	"user-service/internal/config"
+	"user-service/internal/handler"
+	"user-service/internal/router"
+
 	"github.com/gin-gonic/gin"
-	"github.com/my-org/user-service/internal/config"
-	"github.com/my-org/user-service/internal/handler"
-	"github.com/my-org/user-service/internal/router"
 
 	swaggerFiles "github.com/swaggo/files"
 	ginSwagger "github.com/swaggo/gin-swagger"

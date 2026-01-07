@@ -6,7 +6,7 @@ import (
 	"time"
 
 	"github.com/gin-gonic/gin"
-	"github.com/my-org/user-service/internal/model"
+	"user-service/internal/model"
 )
 
 // 模拟用户数据存储
